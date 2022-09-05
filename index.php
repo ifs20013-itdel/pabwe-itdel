@@ -12,7 +12,7 @@
         <div class="card">
             <div class="card-body w-50 mx-auto">
 
-                <img src="minggu2/ChantikaPardosi.jpeg" alt="foto-saya" class="img-thumbnail d-block mx-auto" width="150"/>
+                <img src="Chantika N S Pardosi.jpeg" alt="foto-saya" class="img-thumbnail d-block mx-auto" width="150"/>
                 <h3 class="text-center">11S20013_Chantika Nadya Serebella Pardosi</h3>
 
                 <div class="list-group">
