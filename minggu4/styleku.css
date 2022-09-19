@@ -1,0 +1,75 @@
+body{
+    color: black;
+}
+
+fieldset{
+    width: 1024px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+header{
+    display: flex;
+    gap: 5px;
+    height: 180px;
+    width: 1024px;
+    border: 2px solid black;
+}
+
+.gbr{
+    height: 180px;
+    width: 180px;
+}
+
+.h2{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text{
+    width: 600px;
+}
+
+.rr{
+    margin-top: 130px;
+    margin-right: -10px;
+}
+
+.cont1{
+    display: flex;
+    gap: 10px;
+}
+
+article{
+    width: 750px;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 264px;
+    height: auto;
+}
+
+footer{
+    width: 1024px;
+    margin-top: 70px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+hr{
+    border: 2px solid black;
+    margin-top: -15px;
+}
+
+table{
+    border: 2px solid black;
+}
+
