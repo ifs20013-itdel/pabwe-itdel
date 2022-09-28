@@ -1,0 +1,41 @@
+<!--Nama    : Chantika Nadya Serebella Pardosi
+    Kelas   : 13IF1
+    NIM     : 11S20013
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <label><h3>Masukkan Nama Anda:</h3></label>
+                <input id="inputName" type="text" class="form-control"
+                placeholder="Name">
+                <button class="btn btn-success" type="button"
+                onclick="displayName();">Insert</button>
+
+                <h3 id="displayName">Nama saya adalah ...</h3>
+            </form>
+        </div>
+        <button class="tombol" type="button" onclick="ubahwarna()">Ganti Warna</button>
+    </div>
+
+<script>
+    function displayName(){
+        let name = document.getElementById("inputName").value;
+        document.getElementById("displayName").innerText = "Nama saya adalah " + name;
+    }
+    function ubahwarna(){
+        document.getElementById("displayName").style.color= "blue"  
+    }
+</script>
+</body>
+</html>
