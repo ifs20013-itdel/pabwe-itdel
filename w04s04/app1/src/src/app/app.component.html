@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<form class="ui large from segment">
+  <h3 class="ui header">Add a Link</h3>
+  <div class="field">
+    <label for="title">Title:</label>
+    <input #myTitle name="title"  #newtitle >
+  </div>
+  <div class="field">
+    <label for="link">Link:</label>
+    <input #myLink name="link"  #newlink >
+  </div>
+  <button type="button" (click)="onDuplicate(newtitle, newlink)" class="ui positive right floated button">
+    Submit link
+  </button>
+</form>
+
+<div *ngFor="let vote of data">
+  <app-article [title]="vote.title" [link]="vote.link">
+  </app-article>
+</div>
+
