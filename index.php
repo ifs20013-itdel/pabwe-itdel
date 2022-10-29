@@ -24,7 +24,7 @@
                     <a href="./minggu4/index.html" class="list-group-item list-group-item-action">Minggu Ke-4</a>
                     <a href="minggu5/mahasiswa.html" class="list-group-item list-group-item-action">Minggu Ke-5</a>
                     <a href="./minggu9/tabelKRS.php" class="list-group-item list-group-item-action">Minggu Ke-9</a>
-                    <a href="./minggu10/welcome.blade.php" class="list-group-item list-group-item-action">Minggu Ke-10</a>
+                    <a href="./minggu10/web.php" class="list-group-item list-group-item-action">Minggu Ke-10</a>
                 </div>
             </div>
         </div>
