@@ -25,6 +25,7 @@
                     <a href="minggu5/mahasiswa.html" class="list-group-item list-group-item-action">Minggu Ke-5</a>
                     <a href="./minggu9/tabelKRS.php" class="list-group-item list-group-item-action">Minggu Ke-9</a>
                     <a href="./minggu10/welcome.blade.php" class="list-group-item list-group-item-action">Minggu Ke-10</a>
+                    <a href="http://localhost/laravel-app/public/welcome/welcoming" class="list-group-item list-group-item-action">Welcoming</a>
                 </div>
             </div>
         </div>

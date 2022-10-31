@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,11 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function() {
+    return view ('welcome');
 });
 
-//Route Baru
-Route::get('hello', function(){
-    echo "<h1>Selamat Datang di Laravel, Chantika Nadya Serebella Pardosi</h1>";
+Route::get('welcome', [WelcomeController::class,'index']);
+
+Route::get('/welcome/welcoming', function() {
+  return view('welcoming');
 });
